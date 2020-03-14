@@ -1,0 +1,12 @@
+By hashing we can sort the elements such that the time complexity for search is reduced. 
+It is stored as key value pairs and we need to look for the key.
+For direct addressing, the time complexity of add and find is O(1) since the array index is in direct relation with the key. 
+
+Bloom filter basically has add function and search function.
+In bloom filter we can store 0 or 1 and initially bloom filters are set to 0.
+It return either true or false.
+Bloom filters are compressed data structure. It takes less memory.
+The time complexity of bloom filter is O(k) where k is the number of hash functions which is independent of the number of items 
+present in the array.
+
+
